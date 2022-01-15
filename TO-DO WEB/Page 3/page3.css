@@ -123,44 +123,7 @@
     margin: auto;    
 }
 
-/******************************MOBILE RESPONSES************************************/
-/* @media(max-width:600px){
-.upper-container{
-    width: 80%;
-}
-.upper-container1{
-    width:80%;
-}
-#addList{
-    display: none;
-}
 
-.div2{
-    display: none;
-}
-.div3{
-    display: none;
-}
-.div1{
-    border: none;
-    color: lightgray;
-}
-.card1{
-    width: 90%;
-    height: 15vw;
-    margin-top:20px;
-}
-.card2{
-    width: 90%;
-    height: 15vw;
-    margin-top:20px;
-}
-.card3{
-    width: 90%;
-    height: 15vw;
-    margin-top:20px;
-}
-} */
 
 /******************POP-UP********************/
 .notshow{
@@ -204,4 +167,62 @@
     position: absolute;
     left: 150px;
     font-size: 20px;
+}
+
+/******************************MOBILE RESPONSIVENES************************************/
+
+@media(max-width:600px){
+.upper-container{
+    width: 80%;
+}
+.upper-container1{
+    width:80%;
+}
+#addList{
+    display: none;
+}
+
+.div2{
+    display: none;
+}
+.div3{
+    display: none;
+}
+.div1{
+    border: none;
+    color: lightgray;
+}
+.card1{
+    width: 90%;
+    height: 15vw;
+    margin-top:20px;
+}
+.card2{
+    width: 90%;
+    height: 15vw;
+    margin-top:20px;
+}
+.card3{
+    width: 90%;
+    height: 15vw;
+    margin-top:20px;
+}
+.popup {
+    width: 80%;
+    height: 50vw;
+    margin-top: 25px;
+    margin-left: -26%;;
+}
+.popup-button {
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 120px;
+    font-size: 20px;
+}
 }
